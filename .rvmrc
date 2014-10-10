@@ -1,0 +1,2 @@
+
+rvm --create use `cat .ruby-version`
