@@ -1,2 +1,4 @@
 <h1> welcome</h1>
-<label>Name:<%= @user.name %> </label>
+<% unless @user.nil? %>
+	<label>Name:<%= @user.name %> </label>
+	<% end %>
